@@ -10,4 +10,4 @@ jobs:
         with:
           node-version: '14'
           architecture: 'x64' # optional, x64 or x86. If not specified, x64 will be used by default
-      - run: npm test:ci
+      - run: npm run test:ci
